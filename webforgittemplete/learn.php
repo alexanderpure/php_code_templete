@@ -15,8 +15,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
     $fname = check_input($_POST['fname']);
     $email = check_input($_POST['email']);
     $password = check_input($_POST['password']);
-}
     $gender = check_input($_POST['gender']);
+}
     function check_input($data){
         $data = trim($data);
         $data = stripslashes($data);
